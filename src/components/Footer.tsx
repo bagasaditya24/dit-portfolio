@@ -69,7 +69,7 @@ export default function Footer() {
           <div className="flex items-center gap-6">
 
             <a
-              href="https://github.com/"
+              href="https://github.com/bagasaditya24"
               target="_blank"
               rel="noopener noreferrer"
               className="transition-opacity duration-300 hover:opacity-60"
@@ -78,7 +78,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="https://instagram.com/"
+              href="https://www.instagram.com/bagassadittya24/"
               target="_blank"
               rel="noopener noreferrer"
               className="transition-opacity duration-300 hover:opacity-60"
@@ -87,7 +87,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="https://linkedin.com/"
+              href="https://www.linkedin.com/in/bagasaditya24"
               target="_blank"
               rel="noopener noreferrer"
               className="transition-opacity duration-300 hover:opacity-60"

@@ -27,7 +27,7 @@ const projects = [
     description:
       "A clean and modern creative agency experience built to present freelance digital services with simplicity and elegance.",
     image: jasajoki,
-    link: "#",
+    link: "https://ditz-creative.vercel.app/",
     tech: [
       "React",
       "TypeScript",

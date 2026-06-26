@@ -13,30 +13,30 @@ import {
 const contacts = [
   {
     title: "Email",
-    value: "bagasaditya@example.com",
+    value: "farhatsofyan66@gmail.com",
     icon: Mail,
-    link: "mailto:bagasaditya@example.com",
+    link: "mailto:farhatsofyan66@gmail.com",
   },
 
   {
     title: "Instagram",
-    value: "@yourusername",
+    value: "@bagassadittya24",
     icon: FaInstagram,
-    link: "https://instagram.com/",
+    link: "https://www.instagram.com/bagassadittya24/",
   },
 
   {
     title: "GitHub",
-    value: "github.com/yourusername",
+    value: "github.com/bagasaditya24",
     icon: FaGithub,
-    link: "https://github.com/",
+    link: "https://github.com/bagasaditya24",
   },
 
   {
     title: "LinkedIn",
-    value: "linkedin.com/in/yourusername",
+    value: "linkedin.com/in/bagasaditya24",
     icon: FaLinkedin,
-    link: "https://linkedin.com/",
+    link: "https://www.linkedin.com/in/bagas-aditya-13a398300",
   },
 ];
 
