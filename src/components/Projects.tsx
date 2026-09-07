@@ -35,7 +35,7 @@ const projects = [
     title: "Pesan.in — POS Systems",
     description:
       "A modern self-service food ordering system equipped with table-based Live Tracking, automated E-Receipts for QRIS payments, and a premium interface designed for user convenience.",
-    link: "https://github.com/bagasaditya24/pesanin-pos/", 
+    link: "https://github.com/",
     tech: ["Laravel", "Tailwind CSS", "Alpine.js", "MySQL"],
     layout: "grid", 
     features: [
@@ -94,7 +94,7 @@ export default function Projects() {
           {projects.map((project, index) => (
             <div key={project.title}>
               
-              {/* === TATA LETAK SPLIT (Project 1, 2, 4) === */}
+              {/* === TATA LETAK SPLIT === */}
               {project.layout === "split" && (
                 <div className="grid items-center gap-14 lg:grid-cols-2 lg:gap-20">
                   <motion.div
@@ -145,7 +145,7 @@ export default function Projects() {
                 </div>
               )}
 
-              {/* === TATA LETAK BENTO GRID PREMIUM (Khusus Pesan.in) === */}
+              {/* === TATA LETAK BENTO GRID PREMIUM === */}
               {project.layout === "grid" && (
                 <motion.div
                   initial={{ opacity: 0, y: 30 }}
@@ -169,12 +169,11 @@ export default function Projects() {
                     </p>
                   </div>
 
-                  {/* Fitur Grid (Kartu Putih Elegan) */}
+                  {/* Penambahan tanda tanya (?) di fitur grid di bawah ini */}
                   <div className="relative grid grid-cols-1 gap-6 md:grid-cols-2 lg:gap-8">
-                    {project.features.map((feature, i) => (
+                    {project.features?.map((feature, i) => (
                       <div key={i} className="group relative flex flex-col overflow-hidden rounded-3xl bg-white border border-black/5 shadow-sm transition-all duration-500 hover:shadow-[0_20px_60px_rgba(0,0,0,0.08)] hover:-translate-y-1">
                         
-                        {/* Area Gambar */}
                         <div className="relative aspect-[16/10] w-full overflow-hidden bg-[#f5f5f7] flex items-center justify-center p-6 border-b border-black/5">
                           <img 
                             src={feature.image} 
@@ -183,7 +182,6 @@ export default function Projects() {
                           />
                         </div>
                         
-                        {/* Area Teks */}
                         <div className="flex flex-1 flex-col p-8 sm:p-10">
                           <h3 className="text-xl font-semibold text-[#1d1d1f] mb-3">{feature.title}</h3>
                           <p className="text-base text-[#6e6e73] leading-relaxed">{feature.description}</p>
