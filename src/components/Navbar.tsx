@@ -45,10 +45,9 @@ export default function Navbar() {
 
         {/* Desktop Contact */}
         <a
-          href="#contact"
           className="hidden text-xs font-medium text-[#0071e3] transition-opacity duration-300 hover:opacity-70 md:block"
         >
-          Contact
+          DitzDev
         </a>
 
         {/* Mobile Menu Button */}

@@ -3,12 +3,13 @@ import { motion } from "framer-motion";
 export default function Hero() {
   return (
     <section className="relative min-h-screen overflow-hidden bg-[#f5f5f7]">
-
+      
       {/* Soft Gradient */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.9),transparent_55%)]" />
 
-      <div className="relative mx-auto flex min-h-screen max-w-7xl flex-col items-center justify-center px-6 pt-28 text-center sm:pt-32">
-
+      {/* DITAMBAHKAN pb-24 dan sm:pb-32 DI BARIS INI */}
+      <div className="relative mx-auto flex min-h-screen max-w-7xl flex-col items-center justify-center px-6 pt-28 pb-24 text-center sm:pt-32 sm:pb-32">
+        
         {/* Small Label */}
         <motion.p
           initial={{ opacity: 0, y: 15 }}
@@ -49,7 +50,6 @@ export default function Hero() {
           transition={{ delay: 0.4, duration: 1 }}
           className="mt-10 flex w-full flex-col items-center justify-center gap-4 sm:w-auto sm:flex-row"
         >
-
           <a
             href="#projects"
             className="w-full rounded-full bg-[#0071e3] px-8 py-4 text-sm font-medium text-white transition-all duration-300 hover:bg-[#0077ED] sm:w-auto"
@@ -63,7 +63,6 @@ export default function Hero() {
           >
             Download CV
           </a>
-
         </motion.div>
 
       </div>
