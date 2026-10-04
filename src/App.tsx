@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import TechStack from "./components/TechStack";
 import About from "./components/About";
+import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Certificates from "./components/Certificates";
 import Experience from "./components/Experience";
@@ -15,6 +16,7 @@ export default function App() {
       <Hero />
       <TechStack />
       <About />
+      <Skills />
       <Projects />
       <Certificates />
       <Experience />

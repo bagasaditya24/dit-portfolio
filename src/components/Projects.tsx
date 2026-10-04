@@ -174,8 +174,7 @@ export default function Projects() {
                     {project.features?.map((feature, i) => (
                       <div key={i} className="group relative flex flex-col overflow-hidden rounded-3xl bg-white border border-black/5 shadow-sm transition-all duration-500 hover:shadow-[0_20px_60px_rgba(0,0,0,0.08)] hover:-translate-y-1">
                         
-                        <div className="relative aspect-[16/10] w-full overflow-hidden bg-[#f5f5f7] flex items-center justify-center p-6 border-b border-black/5">
-                          <img 
+                        <div className="relative aspect-video w-full overflow-hidden bg-[#f5f5f7] flex items-center justify-center p-6 border-b border-black/5">                          <img 
                             src={feature.image} 
                             alt={feature.title} 
                             className="h-full w-full object-contain rounded-lg drop-shadow-sm transition-transform duration-700 group-hover:scale-105" 
