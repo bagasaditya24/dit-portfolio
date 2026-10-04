@@ -2,12 +2,12 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[90vh] overflow-hidden bg-[#f5f5f7]">
+    <section className="relative min-h-screen overflow-hidden bg-[#f5f5f7]">
 
       {/* Soft Gradient */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.9),transparent_55%)]" />
 
-      <div className="relative mx-auto flex min-h-[90vh] max-w-7xl flex-col items-center justify-center px-6 pt-24 pb-20 text-center sm:pt-28">
+      <div className="relative mx-auto flex min-h-screen max-w-7xl flex-col items-center justify-center px-6 pt-24 pb-20 text-center sm:pt-28">
 
         {/* Small Label */}
         <motion.p
@@ -100,6 +100,8 @@ export default function Hero() {
 
           <a
             href="https://www.linkedin.com/in/bagas-aditya-13a398300/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="
               w-full
               rounded-full
